@@ -1,0 +1,14 @@
+{
+  "name": "com.alienproject.webwrapper",
+  "version": "0.6.0",
+  "displayName": "Alien Project Web Wrapper",
+  "description": "Reusable startup, attribution, remote configuration, WebView, and notification orchestration for Unity applications.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Alien Project"
+  },
+  "dependencies": {
+    "com.unity.mobile.notifications": "2.4.3"
+  },
+  "samples": []
+}

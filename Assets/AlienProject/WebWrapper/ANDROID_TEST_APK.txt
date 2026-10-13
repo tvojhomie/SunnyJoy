@@ -1,0 +1,87 @@
+SUNNY JOY — ANDROID APK
+
+Non-Development APK
+Tools > Alien Project > Build Android Non-Development APK builds Builds/Android/SunnyJoy.apk.
+If it already exists, the new filename gets a timestamp; previous APKs are preserved.
+Development Build, Script Debugging, Profiler connection and Deep Profiling are OFF.
+No built-in Logs button, diagnostic panel or Development Build watermark is enabled.
+Fullscreen and optimized frame pacing are ON. Android WebView fills the Unity viewport,
+without an extra Screen.safeArea crop; native WebView handles page cutout/keyboard insets.
+The Privacy Policy/navigation toolbar remains; it is not a diagnostic overlay.
+For manual building: Prepare Android Non-Development APK, then Android > Build.
+Full device checklist: FINAL_DEVICE_CHECKLIST.txt beside this file.
+
+Preparation (does not build an APK)
+1. Tools > Alien Project > Prepare Android Test APK.
+2. File > Build Profiles > Android. Keep Development Build enabled.
+3. Build App Bundle and Export Project must be OFF. Click Build and choose an .apk path.
+
+Settings: com.gameandjoy.sunnyjoygame, IL2CPP, ARM64, Android 11/API 30 minimum,
+target API 35, local debug signing, MainMenu first. Android SDK/NDK/JDK are
+installed with Unity 6000.3.8f1. No Google Play publication or release key is needed
+for this local test. The first Gradle build may need internet to download dependencies.
+Do not install this debug-signed APK over a differently signed release with the same
+package ID. If Android requires uninstalling the older app, that removes its local data.
+
+Real services
+- Auto Start ON, mocks OFF. Active config source is FirebaseRealtimeDatabase.
+- Reads https://been-there-atlas-default-rtdb.firebaseio.com/apps/sunny_joy/webview.json.
+- See FIREBASE_DB.txt for schema, security rules and checks. The SDK reads via HTTPS REST;
+  there is no native Database SDK requirement and no admin credentials in the APK.
+- Firebase mode never posts to config.php or sends device/attribution/push data to DB.
+- Keep one valid Assets/google-services.json for com.gameandjoy.sunnyjoygame.
+  The build guard rejects missing/mismatched configuration instead of using stale resources.
+- AppsFlyer must have the Android app registered to attribute this package correctly.
+  The existing Sunny Joy OneLink template is iOS-only; this APK does not prove iOS OneLink.
+- Firebase mode does not gate the configured page on organic/non-organic attribution.
+  AppsFlyer still initializes independently; this test does not prove mobile attribution.
+
+Built-in console (Android DEVELOPMENT builds only)
+- Tap Logs (test APK) at the bottom of Unity UI, or Logs in the native WebView toolbar.
+- The native page is temporarily hidden, not reloaded. Close returns to the current page.
+- Copy copies the bounded log buffer, Clear clears only logs (not saves/cache),
+  Follow toggles auto-scroll. Scroll vertically to inspect earlier entries.
+- The console shows Unity errors/stack traces and explicit service events: AppsFlyer
+  startup/callback, Firebase startup/token availability, config POST field names and
+  safe routing values, HTTP status/duration/size, server fields ok/url/expires/message,
+  cached mode and final game/WebView decision, WebView loading success/failure.
+- Tokens, device identifiers, the AppsFlyer key and URL query values are redacted.
+  Unexpected/non-JSON response bodies are not dumped. Review copied logs before sharing.
+- Logs stay in memory (up to 250 entries); restarting the app clears them. Long messages
+  and on-screen text are bounded. Copy includes entries hidden by the on-screen text limit.
+- This is not Android logcat: native Java/process crashes before Unity starts cannot
+  be displayed. Use adb logcat for those. No log upload service is installed.
+- The console does not pause gameplay. Pause the round before inspecting lengthy logs.
+- Turn OFF Development Build for an ordinary release: console/collection do not start.
+
+Device checklist
+1. Loading UI stays until routing finishes. Inspect Firebase DB GET, response and route.
+2. If game: create profile/menu, then PushPanel. If WebView: no PushPanel.
+3. HTTP failures, startup timeouts, unavailable SDK/WebView and offline mode now open
+   the game for this session without an error screen. Temporary failures do not permanently
+   change the saved route; restart the app to retry the server. In Firebase mode even
+   enabled=false is session-only; the next cold launch reads the database again.
+   Check background/resume, rotation and WebView navigation too.
+4. Check game sound, hearts, pause/restart, skins, persistence, screen edges on your phone.
+5. Android 13+: test notification Allow and Deny from the game route, then a real FCM push.
+6. Firebase mode reads on every cold launch and ignores legacy PHP route/cache. Do not
+   clear app storage to change the URL; edit the DB config and restart the app.
+
+Limits
+This is not an iOS test: no APNs, ATT, iOS permissions, WKWebView or Apple signing.
+Native profile photo camera/gallery currently supports iOS and Editor only; use built-in
+avatars in this APK. Android photo picking would be a separate implementation.
+2026-10-13: non-Development Gradle/IL2CPP APK built successfully; zero build errors.
+The APK manifest has no debuggable/testOnly flag. No Android device was connected,
+so fullscreen appearance, WebView smoothness and native interactions need device checks.
+
+Startup fix, revision 2 (after the first device test)
+- SDK adapter assemblies are marked AlwaysLinkAssembly. A UnityLinker processor explicitly
+  supplies the package link.xml rules; UPM link.xml files alone were not enough.
+- Build completion checks verify the Android stripped output contains both adapter assemblies
+  and AppsFlyer/Firebase SDK assemblies. A missing one is reported as a build failure.
+- Console initialization is idempotent and is called explicitly from the game's Awake as well
+  as the startup callback. IMGUI loading/status UI no longer covers the Logs button or panel.
+- Rebuild the APK (Build dropdown > Clean Build is useful for this first retest). Installing
+  the new APK over the old debug-signed APK preserves test progress. Do not clear app data
+  just to install this fix.

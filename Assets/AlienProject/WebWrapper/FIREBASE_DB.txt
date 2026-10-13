@@ -1,0 +1,53 @@
+SUNNY JOY — FIREBASE REALTIME DATABASE
+
+Active source: FirebaseRealtimeDatabase (WebWrapperSettings in Resources).
+Database: https://been-there-atlas-default-rtdb.firebaseio.com
+Node: apps/sunny_joy/webview
+Value: {"enabled":true,"url":"https://application-test-qa.top/test_page/"}
+
+The shared Unity package reads this node through the official Firebase HTTPS REST API.
+No additional native Firebase Database SDK or secret/admin key is needed for a public
+read-only configuration. Firebase Messaging remains a separate integration.
+
+Startup:
+- Each cold launch reads fresh config. AppsFlyer and FCM do not block this GET.
+- enabled=true and a valid HTTPS url: open UniWebView; no game music or PushPanel.
+- enabled=false, null/empty node, invalid URL/JSON, denied access, network failure or
+  startup/WebView timeout: open the game for this session, without an error screen.
+- The old PHP route/cache never locks Firebase mode. Game/profile progress is untouched.
+- URL changes take effect on the next launch; no live page switch during an active session.
+- The client never writes to the database or sends attribution, push tokens or device IDs.
+- config.php is retained only for the optional legacy HttpConfig mode; it is not contacted
+  in Firebase mode, including for token registration or push-click acknowledgements.
+- FCM SDK/permission UI and local push-click deduplication remain. Server-side push token
+  storage, sending pushes and click analytics need a separate authorized backend integration.
+
+Security — owner action required:
+The initial test write succeeded without authentication. Public write access is UNSAFE.
+The user chose to change rules personally. Rules have NOT been changed by the assistant.
+Suggested rules are in firebase-database.rules.json beside this file. Publish them in
+Firebase Console > Realtime Database > Rules after checking for other apps/data.
+They permit public reads only at apps/sunny_joy/webview and deny client writes everywhere.
+Firebase Console/admin access is managed separately. Do not put secrets in the config node.
+Do not publish a release until public writes are closed and read access is rechecked.
+
+Tests:
+1. Tools > Alien Project > Check Firebase DB Connection — real read only; writes the result
+   to Library/FirebaseDatabaseConnectionTest.txt (no WebView or game state changes).
+2. Tools > Alien Project > Run Web Wrapper Tests — unit tests, including failure/retry cases.
+3. Open MainMenu and press Play for the full loading -> Firebase -> UniWebView path.
+   Editor uses a separate native macOS WebView window; Android/iOS show it over the app.
+4. Build Android Non-Development APK for normal viewing without console labels.
+   For diagnostics only, Prepare Android Test APK and build with Development enabled:
+   Logs should show Firebase DB GET, HTTP 200, enabled=true and Route WebView.
+   There should be no Config POST to config.php in either build.
+5. In Firebase Console set enabled=false: the next cold launch must show the game.
+   Restore enabled=true after the test. Offline should also show the game.
+
+Reuse in another game: select FirebaseRealtimeDatabase and set that game's Database URL
+and a distinct Config Path in its own settings asset. Keep the published rules in sync.
+Path segments accept letters, digits, underscore and hyphen; do not use a dotted bundle ID.
+
+REST references:
+https://firebase.google.com/docs/database/rest/retrieve-data
+https://firebase.google.com/docs/database/rest/save-data

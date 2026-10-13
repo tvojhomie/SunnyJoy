@@ -1,0 +1,165 @@
+Path	Width	Height	RuntimeBytes	Format
+Assets/0_UI/Background.png	943	2048	13519808	RGB24
+Assets/0_UI/BG/Theme=day.png	943	2048	13519808	RGB24
+Assets/0_UI/BG/Theme=night.png	943	2048	13519808	RGB24
+Assets/0_UI/BG/Theme=sunset.png	943	2048	13519808	RGB24
+Assets/0_UI/BG/Theme=winter.png	943	2048	13519808	RGB24
+Assets/0_UI/Game/Button-1.png	1010	269	2174480	RGBA32
+Assets/0_UI/Game/Button-2.png	1010	269	2174480	RGBA32
+Assets/0_UI/Game/Button-3.png	1050	299	2512560	RGBA32
+Assets/0_UI/Game/Button.png	1010	289	2336080	RGBA32
+Assets/0_UI/Game/Chicken.png	560	560	628160	ETC2_RGBA8
+Assets/0_UI/Game/Group 11.png	373	167	499288	RGBA32
+Assets/0_UI/Game/Group 12.png	430	167	575440	RGBA32
+Assets/0_UI/Game/Group 13.png	500	167	668960	RGBA32
+Assets/0_UI/Game/Modal-1.png	1280	1087	11131840	RGBA32
+Assets/0_UI/Game/Modal.png	1280	1087	11131840	RGBA32
+Assets/0_UI/Game/Panel-1.png	1280	1799	18422720	RGBA32
+Assets/0_UI/Game/Panel.png	1240	1990	19741760	RGBA32
+Assets/0_UI/Game/RecordPlaque.png	899	290	2086640	RGBA32
+Assets/0_UI/Game/Title ribbon 1.png	766	243	1490064	RGBA32
+Assets/0_UI/Game/Title ribbon.png	906	243	1762224	RGBA32
+Assets/0_UI/icon.png	1240	1240	1538560	ETC2_RGB
+Assets/0_UI/Menu/AvatarCard-1.png	247	256	506816	RGBA32
+Assets/0_UI/Menu/AvatarCard-2.png	247	256	506816	RGBA32
+Assets/0_UI/Menu/AvatarCard-3.png	247	256	506816	RGBA32
+Assets/0_UI/Menu/AvatarCard-4.png	247	256	506816	RGBA32
+Assets/0_UI/Menu/AvatarCard-5.png	247	256	506816	RGBA32
+Assets/0_UI/Menu/AvatarCard-6.png	247	256	506816	RGBA32
+Assets/0_UI/Menu/AvatarCard-7.png	247	256	506816	RGBA32
+Assets/0_UI/Menu/AvatarCard.png	247	256	506816	RGBA32
+Assets/0_UI/Menu/Button-1.png	1150	299	2751760	RGBA32
+Assets/0_UI/Menu/Button-2.png	1150	299	2751760	RGBA32
+Assets/0_UI/Menu/Button.png	1150	339	3119760	RGBA32
+Assets/0_UI/Menu/Field.png	1085	190	1650160	RGBA32
+Assets/0_UI/Menu/GrainCounter 1.png	451	160	578240	RGBA32
+Assets/0_UI/Menu/GrainCounter.png	451	160	578240	RGBA32
+Assets/0_UI/Menu/Group 4.png	824	299	1971968	RGBA32
+Assets/0_UI/Menu/Group 6.png	943	2048	13519808	RGB24
+Assets/0_UI/Menu/IconButton.png	202	208	337088	RGBA32
+Assets/0_UI/Menu/Loader.png	780	120	188160	ETC2_RGBA8
+Assets/0_UI/Menu/Logo.png	1228	693	6808992	RGBA32
+Assets/0_UI/Menu/Panel.png	1320	1330	14045760	RGBA32
+Assets/0_UI/Menu/Record.png	616	140	173440	ETC2_RGBA8
+Assets/0_UI/Menu/Rectangle.png	740	80	119360	ETC2_RGBA8
+Assets/0_UI/Menu/Skin=classic, State=stand.png	400	400	320960	ETC2_RGBA8
+Assets/0_UI/Menu/Tile Settings.png	408	333	1087872	RGBA32
+Assets/0_UI/Menu/Tile Skins.png	408	333	1087872	RGBA32
+Assets/0_UI/Menu/Tile Stats.png	408	333	1087872	RGBA32
+Assets/0_UI/Players/Skin=chick, State=stand.png	400	400	320960	ETC2_RGBA8
+Assets/0_UI/Players/Skin=classic, State=stand.png	400	400	320960	ETC2_RGBA8
+Assets/0_UI/Players/Skin=gold, State=stand.png	400	400	320960	ETC2_RGBA8
+Assets/0_UI/Players/Skin=ninja, State=stand.png	400	400	320960	ETC2_RGBA8
+Assets/0_UI/Players/Skin=pirate, State=stand.png	400	400	320960	ETC2_RGBA8
+Assets/0_UI/Players/Skin=space, State=stand.png	400	400	320960	ETC2_RGBA8
+Assets/0_UI/Profile/Bar.png	930	96	715200	RGBA32
+Assets/0_UI/Profile/Bottom sheet 1.png	1320	1240	1637760	ETC2_RGBA8
+Assets/0_UI/Profile/Button 1.png	1250	279	2790960	RGBA32
+Assets/0_UI/Profile/Button-1 1.png	1250	259	2590960	RGBA32
+Assets/0_UI/Profile/Button-1.png	630	279	1407120	RGBA32
+Assets/0_UI/Profile/Button.png	630	279	1407120	RGBA32
+Assets/0_UI/Profile/calendar_month.png	42	47	16752	RGBA32
+Assets/0_UI/Profile/chevron_right.png	28	47	11488	RGBA32
+Assets/0_UI/Profile/Confirm.png	630	279	1407120	RGBA32
+Assets/0_UI/Profile/Current look.png	1300	620	1612960	ETC2_RGBA8
+Assets/0_UI/Profile/Frame 1.png	148	153	182112	RGBA32
+Assets/0_UI/Profile/Frame 2.png	63	73	19356	RGBA32
+Assets/0_UI/Profile/Frame.png	277	62	138352	RGBA32
+Assets/0_UI/Profile/Group 7.png	209	209	350408	RGBA32
+Assets/0_UI/Profile/Group 10.png	1042	753	6277968	RGBA32
+Assets/0_UI/Profile/Icon circle-1.png	236	240	114240	ETC2_RGBA8
+Assets/0_UI/Profile/Icon circle-2.png	236	240	114240	ETC2_RGBA8
+Assets/0_UI/Profile/Icon circle-3.png	236	240	114240	ETC2_RGBA8
+Assets/0_UI/Profile/Icon circle-4.png	236	240	114240	ETC2_RGBA8
+Assets/0_UI/Profile/Icon circle-5.png	236	240	114240	ETC2_RGBA8
+Assets/0_UI/Profile/Icon circle-6.png	236	240	114240	ETC2_RGBA8
+Assets/0_UI/Profile/Icon circle-7.png	236	240	114240	ETC2_RGBA8
+Assets/0_UI/Profile/Icon circle.png	236	240	114240	ETC2_RGBA8
+Assets/0_UI/Profile/IconBg-1.png	116	116	27872	ETC2_RGBA8
+Assets/0_UI/Profile/IconBg-2.png	116	116	27872	ETC2_RGBA8
+Assets/0_UI/Profile/IconBg.png	116	116	27872	ETC2_RGBA8
+Assets/0_UI/Profile/Level title.png	379	79	240488	RGBA32
+Assets/0_UI/Profile/Level.png	170	180	245760	RGBA32
+Assets/0_UI/Profile/menu.png	943	2048	13519808	RGB24
+Assets/0_UI/Profile/Modal 1.png	1280	1227	12565440	RGBA32
+Assets/0_UI/Profile/Option Choose from gallery.png	1180	198	935520	RGBA32
+Assets/0_UI/Profile/Option Remove photo.png	1180	198	935520	RGBA32
+Assets/0_UI/Profile/Option Take a photo.png	1180	198	935520	RGBA32
+Assets/0_UI/Profile/Panel.png	1300	800	2080960	ETC2_RGBA8
+Assets/0_UI/Profile/Photo/bg.png	943	2048	13519808	RGB24
+Assets/0_UI/Profile/Photo/Fill.png	1000	48	96960	ETC2_RGBA8
+Assets/0_UI/Profile/Photo/Frame.png	786	120	755520	RGBA32
+Assets/0_UI/Profile/Photo/Group 9.png	1320	1320	3485760	ETC2_RGBA8
+Assets/0_UI/Profile/Photo/Knob.png	148	148	44768	ETC2_RGBA8
+Assets/0_UI/Profile/Photo/Track.png	1000	48	96960	ETC2_RGBA8
+Assets/0_UI/Profile/Photo/zoom_in.png	63	63	32712	RGBA32
+Assets/0_UI/Profile/Photo/zoom_out.png	63	63	32712	RGBA32
+Assets/0_UI/Profile/Preview Skin.png	520	300	312960	ETC2_RGBA8
+Assets/0_UI/Profile/Progress.png	930	96	715200	RGBA32
+Assets/0_UI/Profile/Scrim.png	943	2048	15451072	RGBA32
+Assets/0_UI/Profile/Stat Best score.png	656	588	772416	ETC2_RGBA8
+Assets/0_UI/push-1.png	922	2048	13218752	RGB24
+Assets/0_UI/Skins/Action-1.png	301	102	246576	RGBA32
+Assets/0_UI/Skins/Action-2.png	301	102	246576	RGBA32
+Assets/0_UI/Skins/Action-3.png	301	102	246576	RGBA32
+Assets/0_UI/Skins/Action.png	301	102	246576	RGBA32
+Assets/0_UI/Skins/Frame 17.png	1204	2048	4932544	ETC2_RGBA8
+Assets/0_UI/Skins/lock.png	125	125	125960	RGBA32
+Assets/0_UI/Skins/Modal-1.png	1280	1127	11541440	RGBA32
+Assets/0_UI/Skins/Modal.png	1280	1157	11848640	RGBA32
+Assets/0_UI/Skins/Preview.png	324	324	210912	ETC2_RGBA8
+Assets/0_UI/Skins/Row How to play.png	1260	270	2722560	RGBA32
+Assets/0_UI/Skins/Row Music.png	1260	270	2722560	RGBA32
+Assets/0_UI/Skins/Row Sounds.png	1260	270	2722560	RGBA32
+Assets/0_UI/Skins/Row Vibration.png	1260	270	2722560	RGBA32
+Assets/0_UI/Skins/SkinCard-1.png	376	571	1718528	RGBA32
+Assets/0_UI/Skins/SkinCard.png	376	571	1718528	RGBA32
+Assets/0_UI/Skins/Tabs-1.png	1200	180	432960	ETC2_RGBA8
+Assets/0_UI/Skins/Tabs.png	1200	180	432960	ETC2_RGBA8
+Assets/0_UI/Skins/Toggle-1.png	220	132	59040	ETC2_RGBA8
+Assets/0_UI/Skins/Toggle.png	220	132	59040	ETC2_RGBA8
+Assets/0_Sprites/Bonus active.png	161	161	208328	RGBA32
+Assets/0_Sprites/Bonus no active.png	161	161	208328	RGBA32
+Assets/0_Sprites/Frame.png	638	130	664480	RGBA32
+Assets/0_Sprites/Hearts.png	901	231	1666008	RGBA32
+Assets/0_Sprites/IconButton.png	172	178	245888	RGBA32
+Assets/0_Sprites/Items/balloon.png	320	500	320960	ETC2_RGBA8
+Assets/0_Sprites/Items/cloud.png	480	220	212160	ETC2_RGBA8
+Assets/0_Sprites/Items/crow.png	440	320	282560	ETC2_RGBA8
+Assets/0_Sprites/Items/icon_grain_bag.png	300	300	90960	ETC2_RGBA8
+Assets/0_Sprites/Items/obj_apple_rotten.png	305	348	425520	RGBA32
+Assets/0_Sprites/Items/obj_bomb.png	320	348	112320	ETC2_RGBA8
+Assets/0_Sprites/Items/obj_corn.png	348	348	122064	ETC2_RGBA8
+Assets/0_Sprites/Items/obj_grain.png	348	348	243168	ETC2_RGBA8
+Assets/0_Sprites/Items/obj_magnet.png	320	320	103360	ETC2_RGBA8
+Assets/0_Sprites/Items/obj_stone.png	331	331	877448	RGBA32
+Assets/0_Sprites/Items/obj_worm.png	348	348	122064	ETC2_RGBA8
+Assets/0_Sprites/Items/truck.png	654	353	1847856	RGBA32
+Assets/0_Sprites/obj_heart.png	137	149	164264	RGBA32
+Assets/0_Sprites/obj_heart_empty.png	128	128	33728	ETC2_RGBA8
+Assets/0_Sprites/Players/1/Skin=classic, State=hurt.png	400	400	320960	ETC2_RGBA8
+Assets/0_Sprites/Players/1/Skin=classic, State=run_left.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/1/Skin=classic, State=run_right.png	401	400	642560	RGBA32
+Assets/0_Sprites/Players/1/Skin=classic, State=stand.png	400	400	320960	ETC2_RGBA8
+Assets/0_Sprites/Players/2/Skin=chick, State=hurt.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/2/Skin=chick, State=run_left.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/2/Skin=chick, State=run_right.png	401	400	642560	RGBA32
+Assets/0_Sprites/Players/2/Skin=chick, State=stand.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/3/Skin=pirate, State=hurt.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/3/Skin=pirate, State=run_left.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/3/Skin=pirate, State=run_right.png	401	400	642560	RGBA32
+Assets/0_Sprites/Players/3/Skin=pirate, State=stand.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/4/Skin=ninja, State=hurt.png	400	400	320960	ETC2_RGBA8
+Assets/0_Sprites/Players/4/Skin=ninja, State=run_left.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/4/Skin=ninja, State=run_right.png	401	400	642560	RGBA32
+Assets/0_Sprites/Players/4/Skin=ninja, State=stand.png	400	400	320960	ETC2_RGBA8
+Assets/0_Sprites/Players/5/Skin=space, State=hurt.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/5/Skin=space, State=run_left.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/5/Skin=space, State=run_right.png	401	400	642560	RGBA32
+Assets/0_Sprites/Players/5/Skin=space, State=stand.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/6/Skin=gold, State=hurt.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/6/Skin=gold, State=run_left.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Players/6/Skin=gold, State=run_right.png	401	400	642560	RGBA32
+Assets/0_Sprites/Players/6/Skin=gold, State=stand.png	400	400	160960	ETC2_RGBA8
+Assets/0_Sprites/Score.png	345	223	616440	RGBA32
+Assets/0_Sprites/Timer.png	139	139	155528	RGBA32

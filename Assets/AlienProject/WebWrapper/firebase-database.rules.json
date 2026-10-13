@@ -1,0 +1,13 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "apps": {
+      "sunny_joy": {
+        "webview": {
+          ".read": true
+        }
+      }
+    }
+  }
+}

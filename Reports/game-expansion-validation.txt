@@ -1,0 +1,51 @@
+Sunny Joy / Egg Catcher — 2026-10-13
+
+Final APK: Builds/Android/SunnyJoy-optimized.apk
+Non-development, ARM64, IL2CPP, LZ4HC. APK v2 signature verified.
+Android manifest does not enable debuggable.
+APK size: 58,643,644 bytes (58.6 MB / 55.9 MiB).
+Previous APK: SunnyJoy-20261013-095409.apk, 88,320,952 bytes.
+Reduction: 29,677,308 bytes, approximately 33.6%.
+SHA-256: 945d307d8f818590467b135531ffa807da8bc79e1a2c92895d7d388d884646ce
+
+Automated results on final code:
+- Egg Catcher UI/data/gameplay/audio/startup/privacy: 111 passed, 0 failed.
+- WebWrapper: 204 passed, 0 failed.
+- Player build guard verified AppsFlyer and Firebase adapters survived stripping.
+- All 164 renamed image GUIDs checked against the rename manifest.
+- C# comment removal checked by Roslyn token equivalence in all conditional branches.
+- First build scene remains Assets/Scenes/MainMenu.unity.
+
+Startup:
+Local profile, UI, sound clips and a 24-item pool prepare immediately while
+the authored loader shows real local-stage progress. Sound remains silent.
+If no WebView decision arrives within the host's 1-second network budget,
+the game/profile opens and the pending startup request is cancelled.
+Once the menu/profile appears, this session stays in the game; late remote
+navigation cannot take it away. A new launch checks the server again.
+A timely WebView decision still uses the normal page-load timeout/fallback.
+The budget is not a guarantee of 1-second cold boot on every device.
+
+New mechanics:
+- Egg Rush: 20 uninterrupted catches, 6 seconds of double points and fast eggs.
+- Extra heart at full health: one-hit shield, no stacking.
+- Per-round missions: 20 eggs / 5 corn / 3 worms; +10 / +15 / +20 eggs.
+- Mission rewards commit once at Game Over, never on restart or quit.
+- HUD progress, contextual sounds and How to play > More tips are connected.
+
+Size settings:
+Mobile ASTC 4x4 for UI/characters, ASTC 6x6 for scenery; no texture mipmaps or
+readable CPU copies. Medium managed stripping and IL2CPP OptimizeSize.
+Editor imported-texture memory audit: 350.25 MiB -> 104.68 MiB.
+That texture metric is neither APK size nor a device memory measurement.
+
+Manual Editor preview checked normal gameplay/HUD/results after compression.
+Still verify on physical devices: texture/text quality, smooth movement,
+startup on slow/offline/fast networks, WebView, notifications, policy browser,
+and native iOS camera/gallery callbacks. No iOS device build was made.
+No review-approval guarantee or reviewer-specific behavior was added.
+Vendor SDK sources/licenses were not stripped of comments or modified.
+
+Recovery copy: Backups/before-game-expansion-20261013.tar.gz
+Rename map: Reports/asset-renames.tsv
+Raw test results: Library/EggCatcherTestResults.txt, Library/WebWrapperTestResults.txt

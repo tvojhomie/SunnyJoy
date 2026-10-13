@@ -1,0 +1,165 @@
+Old path	New path	GUID
+Assets/0_UI/Background.png	Assets/0_UI/Menu_MeadowBackground.png	c3734143cfacd4b8383f86bc59ebca09
+Assets/0_UI/BG/Theme=day.png	Assets/0_UI/BG/Gameplay_Day.png	ee2a2bcafc753431a9df7d1ea7b50d16
+Assets/0_UI/BG/Theme=night.png	Assets/0_UI/BG/Gameplay_Night.png	f935a420cca4c455aa8f16cf4d4df4bc
+Assets/0_UI/BG/Theme=sunset.png	Assets/0_UI/BG/Gameplay_Sunset.png	398051ed98cbf4cb4b3c2371c7e30510
+Assets/0_UI/BG/Theme=winter.png	Assets/0_UI/BG/Gameplay_Winter.png	eb09080dc2867411d80901ab678ebbda
+Assets/0_UI/Game/Button-1.png	Assets/0_UI/Game/Button_Restart.png	16910371e4ef74f408cf291b70c51759
+Assets/0_UI/Game/Button-2.png	Assets/0_UI/Game/Button_MainMenu.png	8b7da20a94ed94f2c87b36b6fbe0a72a
+Assets/0_UI/Game/Button-3.png	Assets/0_UI/Game/Button_PlayAgain.png	c9d9e41151c7f4b219ceaffe53571a95
+Assets/0_UI/Game/Button.png	Assets/0_UI/Game/Button_Resume.png	e84231b67cffa46ddbf5911cf91077c8
+Assets/0_UI/Game/Chicken.png	Assets/0_UI/Game/Character_GameOver.png	cf09c410ecc2043449ab266f14bf2aed
+Assets/0_UI/Game/Group 11.png	Assets/0_UI/Game/Setting_MusicLabel.png	689ef9037563e4f4591df3008df529f0
+Assets/0_UI/Game/Group 12.png	Assets/0_UI/Game/Setting_SoundsLabel.png	889aef36677f4429e8f9e3854b5c20d6
+Assets/0_UI/Game/Group 13.png	Assets/0_UI/Game/Setting_VibrationLabel.png	93867b989ce4c459bb6e19558ac898bf
+Assets/0_UI/Game/Modal-1.png	Assets/0_UI/Game/Dialog_QuitRound.png	509138b12567544be903c60711778592
+Assets/0_UI/Game/Modal.png	Assets/0_UI/Game/Dialog_RestartRound.png	5338bb3acfd4845cb93e45339f81f092
+Assets/0_UI/Game/Panel-1.png	Assets/0_UI/Game/Panel_RoundResults.png	31c63a3e933454f16ba7b29ae20ccf4e
+Assets/0_UI/Game/Panel.png	Assets/0_UI/Game/Panel_Pause.png	00eb74c37050542ab9c1d581044d897d
+Assets/0_UI/Game/RecordPlaque.png	Assets/0_UI/Game/Ribbon_NewRecord.png	0b675adfec040472480a9b5fc0e718d7
+Assets/0_UI/Game/Title ribbon 1.png	Assets/0_UI/Game/Ribbon_Paused.png	210d575b0863a4399ad5007615702870
+Assets/0_UI/Game/Title ribbon.png	Assets/0_UI/Game/Ribbon_GameOver.png	0f9f0edee49714c168f4b711cb020f9f
+Assets/0_UI/icon.png	Assets/0_UI/AppIcon_GoldenEgg.png	3726360129fc442fb86db515a019aa7c
+Assets/0_UI/Menu/AvatarCard-1.png	Assets/0_UI/Menu/Avatar_Chick.png	286a2e91ae13a408dbeadddf2b2a342e
+Assets/0_UI/Menu/AvatarCard-2.png	Assets/0_UI/Menu/Avatar_Pirate.png	15dd4a65e39264891ada648e5378b899
+Assets/0_UI/Menu/AvatarCard-3.png	Assets/0_UI/Menu/Avatar_Ninja.png	06960d067c8ca4615a4f60483345dbab
+Assets/0_UI/Menu/AvatarCard-4.png	Assets/0_UI/Menu/Avatar_Astronaut.png	8fab45bd6c81a452c9de144bd8686335
+Assets/0_UI/Menu/AvatarCard-5.png	Assets/0_UI/Menu/Avatar_Golden.png	9d465ed2309bc4e029273e9481a6422a
+Assets/0_UI/Menu/AvatarCard-6.png	Assets/0_UI/Menu/Avatar_Crow.png	bf668078d83ca4ef68a03684054f1528
+Assets/0_UI/Menu/AvatarCard-7.png	Assets/0_UI/Menu/Avatar_Worm.png	05786193813404180bf61bbe840ec322
+Assets/0_UI/Menu/AvatarCard.png	Assets/0_UI/Menu/Avatar_Classic.png	af8e4056efa1e4931880aafaffe44253
+Assets/0_UI/Menu/Button-1.png	Assets/0_UI/Menu/Button_PrimaryGreen.png	7a4f3f88ad59b482891934658e610745
+Assets/0_UI/Menu/Button-2.png	Assets/0_UI/Menu/Button_Disabled.png	ce4cbf683ade542d0ab4bf992fd7b67e
+Assets/0_UI/Menu/Button.png	Assets/0_UI/Menu/Button_Play.png	228c7887462a64744a02d306cf679de6
+Assets/0_UI/Menu/Field.png	Assets/0_UI/Menu/Input_PlayerName.png	2388f61086baf4fbdb059a47f5a67d4a
+Assets/0_UI/Menu/GrainCounter 1.png	Assets/0_UI/Menu/Pill_ProfileBackground.png	caaa8a364d2864966b29b47035112b88
+Assets/0_UI/Menu/GrainCounter.png	Assets/0_UI/Menu/Pill_EggBalance.png	7870189190b334ab7b3d5434e4f53159
+Assets/0_UI/Menu/Group 4.png	Assets/0_UI/Menu/Title_CreateProfile.png	1049c2546ee6c4131be8a3fbd75c3086
+Assets/0_UI/Menu/Group 6.png	Assets/0_UI/Menu/Background_MeadowDimmed.png	8991e820d878d4031bee015fe9e5fcd3
+Assets/0_UI/Menu/IconButton.png	Assets/0_UI/Menu/Button_Back.png	41f2f1c2d260943a4b771bbb43d195d3
+Assets/0_UI/Menu/Loader.png	Assets/0_UI/Menu/Loading_Track.png	8fe37e937eebe402f946e471f2babaf9
+Assets/0_UI/Menu/Logo.png	Assets/0_UI/Menu/Logo_EggCatcher.png	61a3c95a104454584aaff6fcebd2be3a
+Assets/0_UI/Menu/Panel.png	Assets/0_UI/Menu/Panel_CreateProfile.png	f7422c613f6a14687ab382844071a4ce
+Assets/0_UI/Menu/Record.png	Assets/0_UI/Menu/Pill_BestScore.png	0c7bd34520e4e4fb1bf7baee93387f1e
+Assets/0_UI/Menu/Rectangle.png	Assets/0_UI/Menu/Loading_Fill.png	38f2fb0eb6e7b49498281c25ccf4df84
+Assets/0_UI/Menu/Skin=classic, State=stand.png	Assets/0_UI/Menu/Character_ClassicHero.png	fbce809ac64d24910b37966a77d57853
+Assets/0_UI/Menu/Tile Settings.png	Assets/0_UI/Menu/Button_Settings.png	2afdb37d7194e40829a3900018c5a34e
+Assets/0_UI/Menu/Tile Skins.png	Assets/0_UI/Menu/Button_Skins.png	aedc6666d57be481eb4d67526c6ee51f
+Assets/0_UI/Menu/Tile Stats.png	Assets/0_UI/Menu/Button_Stats.png	208ece096e2074548af77814e981c116
+Assets/0_UI/Players/Skin=chick, State=stand.png	Assets/0_UI/Players/Chick_Idle.png	baddb1d0d2da5499fb9a81cb1bef9fd1
+Assets/0_UI/Players/Skin=classic, State=stand.png	Assets/0_UI/Players/Classic_Idle.png	98adf42d8fb7f4110a05976d74f58e69
+Assets/0_UI/Players/Skin=gold, State=stand.png	Assets/0_UI/Players/Gold_Idle.png	fad21bae55380418ba58028c6b37d4e3
+Assets/0_UI/Players/Skin=ninja, State=stand.png	Assets/0_UI/Players/Ninja_Idle.png	bd19608402b1042e782cb3ec344f8c78
+Assets/0_UI/Players/Skin=pirate, State=stand.png	Assets/0_UI/Players/Pirate_Idle.png	8cd105aca9a4a4405a7887ea7b9d4a19
+Assets/0_UI/Players/Skin=space, State=stand.png	Assets/0_UI/Players/Space_Idle.png	e9ad47fa82eb54d2187e9d77b2b07fe2
+Assets/0_UI/Profile/Bar.png	Assets/0_UI/Profile/XP_Track.png	4803e3f68b5044a5da1075e979ee4eb7
+Assets/0_UI/Profile/Bottom sheet 1.png	Assets/0_UI/Profile/Sheet_PhotoSource.png	6f3ed1b6b88da4652af5045c44dde909
+Assets/0_UI/Profile/Button 1.png	Assets/0_UI/Profile/Button_WideBlue.png	9f9e4b4b145d84e94b65afd0bf075cb2
+Assets/0_UI/Profile/Button-1 1.png	Assets/0_UI/Profile/Button_ResetRed.png	81e8fd83012df4d04b7846a843b62244
+Assets/0_UI/Profile/Button-1.png	Assets/0_UI/Profile/Button_SaveGreen.png	6ad87a949513346489f937d90c9bf3c9
+Assets/0_UI/Profile/Button.png	Assets/0_UI/Profile/Button_CancelBlue.png	2e6bfac0a7cfc4106b1ba4b69dc43227
+Assets/0_UI/Profile/calendar_month.png	Assets/0_UI/Profile/Icon_Calendar.png	d105fb80a3efd4a8a9b93a5142dbb506
+Assets/0_UI/Profile/chevron_right.png	Assets/0_UI/Profile/Icon_ChevronRight.png	a6d48b8d9a5c44e01b509ffd5d64bd6a
+Assets/0_UI/Profile/Confirm.png	Assets/0_UI/Profile/Button_ConfirmRed.png	2fe84bbf15b73441298b746c8312d843
+Assets/0_UI/Profile/Current look.png	Assets/0_UI/Profile/Panel_CurrentLook.png	791e6e0e37f6c46d680ad453cce2d662
+Assets/0_UI/Profile/Frame 1.png	Assets/0_UI/Profile/Icon_EditPhoto.png	12ced378c3baf4cefbcfc548fb6554b9
+Assets/0_UI/Profile/Frame 2.png	Assets/0_UI/Profile/Icon_Selected.png	e6e3bd711b28d48e296ed5cd0ede0ab8
+Assets/0_UI/Profile/Frame.png	Assets/0_UI/Profile/Pill_JoinedDate.png	24c47758148694985842a07e677c9150
+Assets/0_UI/Profile/Group 7.png	Assets/0_UI/Profile/Avatar_LockedOverlay.png	3bce92ec0ea9e4d6ab166a0db4733df8
+Assets/0_UI/Profile/Group 10.png	Assets/0_UI/Profile/Stats_EmptyState.png	88c0cfdf771164c5ca5aec7053178b26
+Assets/0_UI/Profile/Icon circle-1.png	Assets/0_UI/Profile/StatIcon_GamesPlayed.png	d686659472dfb47088aff2b294ea53a1
+Assets/0_UI/Profile/Icon circle-2.png	Assets/0_UI/Profile/StatIcon_TotalScore.png	3aece892e79334d679c70ef10d4ee23d
+Assets/0_UI/Profile/Icon circle-3.png	Assets/0_UI/Profile/StatIcon_AverageScore.png	26deb5e8d83ed431b9103dfd1db3400f
+Assets/0_UI/Profile/Icon circle-4.png	Assets/0_UI/Profile/StatIcon_PlayTime.png	d79dbf1868d9d4c6cb4432cfcfbec0c9
+Assets/0_UI/Profile/Icon circle-5.png	Assets/0_UI/Profile/StatIcon_EggsCaught.png	8e74c8d7bf63f4af180dc2afc1d49cd6
+Assets/0_UI/Profile/Icon circle-6.png	Assets/0_UI/Profile/StatIcon_BestStreak.png	e36cfe774c36b4f508d7cc61a6cf7958
+Assets/0_UI/Profile/Icon circle-7.png	Assets/0_UI/Profile/StatIcon_EggsSpent.png	6d300db55744f4ca28d44984ce7c5447
+Assets/0_UI/Profile/Icon circle.png	Assets/0_UI/Profile/StatIcon_BestScore.png	752d7c2567c794c76bb0748ebba0b3fd
+Assets/0_UI/Profile/IconBg-1.png	Assets/0_UI/Profile/SummaryIcon_Games.png	2c417b385cf3045b9b97e211c351bff9
+Assets/0_UI/Profile/IconBg-2.png	Assets/0_UI/Profile/SummaryIcon_BestScore.png	0fbb44d8006f74018a21623f96c06074
+Assets/0_UI/Profile/IconBg.png	Assets/0_UI/Profile/SummaryIcon_Eggs.png	6710f629640dd4c59889e988575e1833
+Assets/0_UI/Profile/Level title.png	Assets/0_UI/Profile/Pill_LevelTitle.png	a8e6dca5e366a4b97a43200e61f87103
+Assets/0_UI/Profile/Level.png	Assets/0_UI/Profile/Badge_LevelNumber.png	ad7e37a7f7cfa40468ff41558f4a0e3e
+Assets/0_UI/Profile/menu.png	Assets/0_UI/Profile/Background_Meadow.png	c6a465879f5d749809515b4f816b9a7a
+Assets/0_UI/Profile/Modal 1.png	Assets/0_UI/Profile/Dialog_ResetProgress.png	ac2e34365187f453c8161651fcd8f667
+Assets/0_UI/Profile/Option Choose from gallery.png	Assets/0_UI/Profile/PhotoOption_Gallery.png	8cf05a8d8b9bf466fbcc5d1144f51a12
+Assets/0_UI/Profile/Option Remove photo.png	Assets/0_UI/Profile/PhotoOption_Remove.png	f3f8cf10e0c694342a0c5316f02c3c1b
+Assets/0_UI/Profile/Option Take a photo.png	Assets/0_UI/Profile/PhotoOption_Camera.png	467f0fec4363b497182d3162284f7c80
+Assets/0_UI/Profile/Panel.png	Assets/0_UI/Profile/Panel_PlayerSummary.png	be254af20ec8f4593827fcd733038021
+Assets/0_UI/Profile/Photo/bg.png	Assets/0_UI/Profile/Photo/Background_Navy.png	f8b7df4b368fa4fcd9f4e23db2bdf278
+Assets/0_UI/Profile/Photo/Fill.png	Assets/0_UI/Profile/Photo/Zoom_Fill.png	81941431a472e42e3a44d815b7479d2e
+Assets/0_UI/Profile/Photo/Frame.png	Assets/0_UI/Profile/Photo/Hint_DragAndZoom.png	77f34b4da1cc1419fb1b7151da4f355c
+Assets/0_UI/Profile/Photo/Group 9.png	Assets/0_UI/Profile/Photo/Crop_CircleMask.png	2a7b27c8becda48f48865abf0c049b8d
+Assets/0_UI/Profile/Photo/Knob.png	Assets/0_UI/Profile/Photo/Zoom_Handle.png	af6d31809208d4d618aca543a3114220
+Assets/0_UI/Profile/Photo/Track.png	Assets/0_UI/Profile/Photo/Zoom_Track.png	be6f8fbe21f8546bc94c61ea62c0dc59
+Assets/0_UI/Profile/Photo/zoom_in.png	Assets/0_UI/Profile/Photo/Icon_ZoomIn.png	c87d29827d113416e9ad1c06544b2891
+Assets/0_UI/Profile/Photo/zoom_out.png	Assets/0_UI/Profile/Photo/Icon_ZoomOut.png	338fed77c28af4d64b3767ae7120c41e
+Assets/0_UI/Profile/Preview Skin.png	Assets/0_UI/Profile/Frame_SkinPreview.png	a41f011517be6435fbbe89730d9386fe
+Assets/0_UI/Profile/Progress.png	Assets/0_UI/Profile/XP_Fill.png	02729b3caad8d408cb3dbf1bbc45a647
+Assets/0_UI/Profile/Scrim.png	Assets/0_UI/Profile/Overlay_Dimmed.png	297b5a6d9d22648309954f507d115bb1
+Assets/0_UI/Profile/Stat Best score.png	Assets/0_UI/Profile/Card_Statistic.png	eade8b9b10c2949daad9a249a4910254
+Assets/0_UI/push-1.png	Assets/0_UI/PushPermission_Illustration.png	8b11d1481b198429bb6cbe38c8e727dc
+Assets/0_UI/Skins/Action-1.png	Assets/0_UI/Skins/Button_BuyWithEggs.png	66e15d3b9e261484296a912f083eee7c
+Assets/0_UI/Skins/Action-2.png	Assets/0_UI/Skins/Button_Selected.png	7096fe712b871492eb28094d0fa78964
+Assets/0_UI/Skins/Action-3.png	Assets/0_UI/Skins/Button_Select.png	028ff8a48a86742008f20c78060872a0
+Assets/0_UI/Skins/Action.png	Assets/0_UI/Skins/Button_Locked.png	7ecaaec2096684e3dad53d04b6ea5277
+Assets/0_UI/Skins/Frame 17.png	Assets/0_UI/Skins/HowToPlay_Rules.png	a1503f8950ec64f9ba00392d13a2ec65
+Assets/0_UI/Skins/lock.png	Assets/0_UI/Skins/Icon_Lock.png	58b08dc90039647388f9f27782e2a8d3
+Assets/0_UI/Skins/Modal-1.png	Assets/0_UI/Skins/Dialog_NotEnoughEggs.png	18f645298644d4dd1b94ffe64f25b138
+Assets/0_UI/Skins/Modal.png	Assets/0_UI/Skins/Dialog_ConfirmPurchase.png	89ec836796ba44b09822860ae90398a1
+Assets/0_UI/Skins/Preview.png	Assets/0_UI/Skins/Preview_Meadow.png	4758da6b6d2cf461d98d1c07655e7fcb
+Assets/0_UI/Skins/Row How to play.png	Assets/0_UI/Skins/Setting_HowToPlay.png	accccccc68a0841e4b7380715ef59c75
+Assets/0_UI/Skins/Row Music.png	Assets/0_UI/Skins/Setting_Music.png	2ef01eb426eb64b269ad292bc86bffd0
+Assets/0_UI/Skins/Row Sounds.png	Assets/0_UI/Skins/Setting_Sounds.png	be51aec81784b4c16a008d95b1aaab04
+Assets/0_UI/Skins/Row Vibration.png	Assets/0_UI/Skins/Setting_Vibration.png	bf5f978c90c3a49b9aa01999f5b2e0c7
+Assets/0_UI/Skins/SkinCard-1.png	Assets/0_UI/Skins/Card_Default.png	abe85121f8f4744c583e49bac7f4249a
+Assets/0_UI/Skins/SkinCard.png	Assets/0_UI/Skins/Card_Selected.png	ceef95948d0fc4b5abf46abeec05e4e3
+Assets/0_UI/Skins/Tabs-1.png	Assets/0_UI/Skins/Tabs_BackgroundsSelected.png	f0e739286297b4bf292b71e6c1d2cbd2
+Assets/0_UI/Skins/Tabs.png	Assets/0_UI/Skins/Tabs_CharactersSelected.png	576468b03d0124da994b45e8389ec56a
+Assets/0_UI/Skins/Toggle-1.png	Assets/0_UI/Skins/Toggle_Off.png	e1f4ee39bbeb74f5fa3c0c2503136cf2
+Assets/0_UI/Skins/Toggle.png	Assets/0_UI/Skins/Toggle_On.png	584ae7958af044ecf9efa78ec1fba9fa
+Assets/0_Sprites/Bonus active.png	Assets/0_Sprites/HUD_MagnetActive.png	7e091ea15704c4256854f783ea7db4aa
+Assets/0_Sprites/Bonus no active.png	Assets/0_Sprites/HUD_MagnetInactive.png	93238c09dce8b472b91b1b1a05619557
+Assets/0_Sprites/Frame.png	Assets/0_Sprites/Hint_MoveLeftRight.png	a3f1ba7e21a1447b1ba6c448dfbca5a8
+Assets/0_Sprites/Hearts.png	Assets/0_Sprites/HUD_HealthBackground.png	6e1580de82bf74ff8b49445ab226f9f6
+Assets/0_Sprites/IconButton.png	Assets/0_Sprites/Button_Pause.png	7628c0d8020fb409b842026ab22219b0
+Assets/0_Sprites/Items/balloon.png	Assets/0_Sprites/Items/Balloon_PowerupCarrier.png	bc5472180a1be4fea9dafc19d5db2864
+Assets/0_Sprites/Items/cloud.png	Assets/0_Sprites/Items/Cloud_Drifting.png	883b5546fb2694871b059aff66887669
+Assets/0_Sprites/Items/crow.png	Assets/0_Sprites/Items/Crow_HazardCarrier.png	69744d350922b44319c91eeb65bf6626
+Assets/0_Sprites/Items/icon_grain_bag.png	Assets/0_Sprites/Items/Icon_EggBasket.png	a131f7f08192a498089169f662fd4fc0
+Assets/0_Sprites/Items/obj_apple_rotten.png	Assets/0_Sprites/Items/Hazard_RottenApple.png	abf722fdef2b84fd99981a44e09d5ce6
+Assets/0_Sprites/Items/obj_bomb.png	Assets/0_Sprites/Items/Hazard_Bomb.png	dfd0214988f6140b085dcf3dbdd8100d
+Assets/0_Sprites/Items/obj_corn.png	Assets/0_Sprites/Items/Pickup_Corn.png	136815509eca64477879328ab43e3838
+Assets/0_Sprites/Items/obj_grain.png	Assets/0_Sprites/Items/Pickup_Egg.png	feba3621171824fae99b55f3ecdafc72
+Assets/0_Sprites/Items/obj_magnet.png	Assets/0_Sprites/Items/Pickup_Magnet.png	8593c3c899b4e431aa3fc13f14bdda89
+Assets/0_Sprites/Items/obj_stone.png	Assets/0_Sprites/Items/Hazard_Rock.png	6b75ffbbb202c467e80c387ecf6b1697
+Assets/0_Sprites/Items/obj_worm.png	Assets/0_Sprites/Items/Pickup_Worm.png	6e1bc82d6c7c445b181705e5189a4cda
+Assets/0_Sprites/Items/truck.png	Assets/0_Sprites/Items/Truck_EggCarrier.png	a303ab679e76d400e9ba170d983bd8c6
+Assets/0_Sprites/obj_heart.png	Assets/0_Sprites/Pickup_Heart.png	9988049e90bfe4924878902962071a05
+Assets/0_Sprites/obj_heart_empty.png	Assets/0_Sprites/HUD_HeartEmpty.png	723a66a9febd74c3381a6b5bb72044cf
+Assets/0_Sprites/Players/1/Skin=classic, State=hurt.png	Assets/0_Sprites/Players/Classic/Classic_Hurt.png	f6602ae36f9854bc79706ae3f33ac9f9
+Assets/0_Sprites/Players/1/Skin=classic, State=run_left.png	Assets/0_Sprites/Players/Classic/Classic_RunLeft.png	1c692d8133f7444ff96605f4e770022a
+Assets/0_Sprites/Players/1/Skin=classic, State=run_right.png	Assets/0_Sprites/Players/Classic/Classic_RunRight.png	a56f73c348509481fb9b569046b21b6b
+Assets/0_Sprites/Players/1/Skin=classic, State=stand.png	Assets/0_Sprites/Players/Classic/Classic_Idle.png	be10e6dd595ed4ad19f5924f94738170
+Assets/0_Sprites/Players/2/Skin=chick, State=hurt.png	Assets/0_Sprites/Players/Chick/Chick_Hurt.png	7edb4fad9e14648df9d74dcc88ead29f
+Assets/0_Sprites/Players/2/Skin=chick, State=run_left.png	Assets/0_Sprites/Players/Chick/Chick_RunLeft.png	eaf3af738ddf245af86b2a9233594443
+Assets/0_Sprites/Players/2/Skin=chick, State=run_right.png	Assets/0_Sprites/Players/Chick/Chick_RunRight.png	3a4c7490bd1c34ad58cac6a6ff0ae8c9
+Assets/0_Sprites/Players/2/Skin=chick, State=stand.png	Assets/0_Sprites/Players/Chick/Chick_Idle.png	fd2cb4d3059f14b439a57df27aa7513e
+Assets/0_Sprites/Players/3/Skin=pirate, State=hurt.png	Assets/0_Sprites/Players/Pirate/Pirate_Hurt.png	1589ecb7242fb47559ff6c9755c045bd
+Assets/0_Sprites/Players/3/Skin=pirate, State=run_left.png	Assets/0_Sprites/Players/Pirate/Pirate_RunLeft.png	f41dcbfea76734a7d9576ef932ddbd96
+Assets/0_Sprites/Players/3/Skin=pirate, State=run_right.png	Assets/0_Sprites/Players/Pirate/Pirate_RunRight.png	b5c0b1ec2dac54a1f9326b28e85a14f0
+Assets/0_Sprites/Players/3/Skin=pirate, State=stand.png	Assets/0_Sprites/Players/Pirate/Pirate_Idle.png	9ae57df1dba2e4531980af503608a397
+Assets/0_Sprites/Players/4/Skin=ninja, State=hurt.png	Assets/0_Sprites/Players/Ninja/Ninja_Hurt.png	9b3e891f4f4454180aa857cb50baeadb
+Assets/0_Sprites/Players/4/Skin=ninja, State=run_left.png	Assets/0_Sprites/Players/Ninja/Ninja_RunLeft.png	fc342354a193349198533fef330f3201
+Assets/0_Sprites/Players/4/Skin=ninja, State=run_right.png	Assets/0_Sprites/Players/Ninja/Ninja_RunRight.png	9e457f73d8adb448383c8a03853af526
+Assets/0_Sprites/Players/4/Skin=ninja, State=stand.png	Assets/0_Sprites/Players/Ninja/Ninja_Idle.png	1b39496604bf14f41926c8203644975a
+Assets/0_Sprites/Players/5/Skin=space, State=hurt.png	Assets/0_Sprites/Players/Space/Space_Hurt.png	69ac5beff3c314faf8260f8c2a947300
+Assets/0_Sprites/Players/5/Skin=space, State=run_left.png	Assets/0_Sprites/Players/Space/Space_RunLeft.png	2d5ccfe9d8c5447ae8894fca493ffa21
+Assets/0_Sprites/Players/5/Skin=space, State=run_right.png	Assets/0_Sprites/Players/Space/Space_RunRight.png	cfcd8178baa524d59b9ab36bd70c0935
+Assets/0_Sprites/Players/5/Skin=space, State=stand.png	Assets/0_Sprites/Players/Space/Space_Idle.png	bb4c41dfe666546ecb2c7158ec2cb43b
+Assets/0_Sprites/Players/6/Skin=gold, State=hurt.png	Assets/0_Sprites/Players/Gold/Gold_Hurt.png	9df2c879667934ceba661cedc2286eec
+Assets/0_Sprites/Players/6/Skin=gold, State=run_left.png	Assets/0_Sprites/Players/Gold/Gold_RunLeft.png	1aceb4a3bab824847ba3ce600ae2d301
+Assets/0_Sprites/Players/6/Skin=gold, State=run_right.png	Assets/0_Sprites/Players/Gold/Gold_RunRight.png	60d3b2c38a6614f9d8ea1da58a55a0ef
+Assets/0_Sprites/Players/6/Skin=gold, State=stand.png	Assets/0_Sprites/Players/Gold/Gold_Idle.png	98876e98e21bf4ff9965e40e2729e53d
+Assets/0_Sprites/Score.png	Assets/0_Sprites/HUD_ScoreBackground.png	02cce4e79d0bb486dbc3f179043a8294
+Assets/0_Sprites/Timer.png	Assets/0_Sprites/HUD_PowerupTimerRing.png	82fc1f527c7d3498989e9dc10674d1b4

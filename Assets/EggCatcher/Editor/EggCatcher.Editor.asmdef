@@ -1,0 +1,7 @@
+{
+  "name": "EggCatcher.Editor",
+  "rootNamespace": "EggCatcher.Editor",
+  "references": ["EggCatcher.Runtime", "Unity.ugui", "Unity.InputSystem", "AlienProject.WebWrapper.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

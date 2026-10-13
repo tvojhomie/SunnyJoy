@@ -1,0 +1,24 @@
+{
+  "name": "AlienProject.WebWrapper.Editor.Tests",
+  "rootNamespace": "AlienProject.WebWrapper.Tests",
+  "references": [
+    "AlienProject.WebWrapper.Runtime",
+    "AlienProject.WebWrapper.Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

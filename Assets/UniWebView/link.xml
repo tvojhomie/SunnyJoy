@@ -1,0 +1,11 @@
+<!--
+  Prevents the IL2CPP managed code stripper from removing UniWebView types and members that are
+  only reached through reflection or JSON deserialization, and therefore invisible to the static
+  analyzer. This includes the native message listeners (methods invoked via MethodInfo.Invoke,
+  e.g. PageStarted / EvalJavaScriptFinished / DebugLog) and the [Serializable] payload types that
+  JsonUtility.FromJson populates. Without this, higher managed stripping levels (increasingly the
+  default in newer Unity) can silently drop these members, making native callbacks disappear.
+-->
+<linker>
+  <assembly fullname="UniWebView-CSharp" preserve="all"/>
+</linker>

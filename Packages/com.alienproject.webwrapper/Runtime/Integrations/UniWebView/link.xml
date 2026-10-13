@@ -1,0 +1,21 @@
+<linker>
+  <assembly fullname="UniWebView-CSharp" ignoreIfMissing="1">
+    <type fullname="UniWebView" preserve="all" />
+    <type fullname="UniWebViewNativeResultPayload" preserve="all" />
+    <type fullname="UniWebViewNativeListener" preserve="all" />
+    <type fullname="UniWebViewChannelMethodManager" preserve="all" />
+    <type fullname="UniWebViewChannelMethod" preserve="all" />
+    <type fullname="UniWebViewChannelMethodMediaCapturePermission" preserve="all" />
+    <type fullname="UniWebViewMediaCapturePermissionDecision" preserve="all" />
+    <type fullname="UniWebViewEmbeddedToolbar" preserve="all" />
+    <type fullname="UniWebViewEmbeddedToolbarConfig" preserve="all" />
+    <type fullname="UniWebViewChannelMethodEmbeddedToolbarItemAction" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.InputSystem" ignoreIfMissing="1">
+    <type fullname="UnityEngine.InputSystem.Keyboard" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.Controls.ButtonControl" preserve="all" />
+  </assembly>
+  <assembly fullname="AlienProject.WebWrapper.Runtime">
+    <type fullname="AlienProject.WebWrapper.Integrations.UniWebView.ReflectionUniWebViewAdapter" preserve="all" />
+  </assembly>
+</linker>

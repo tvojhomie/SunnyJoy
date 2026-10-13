@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="gcm_defaultSenderId" translatable="false">337542923057</string>
+  <string name="google_storage_bucket" translatable="false">been-there-atlas.firebasestorage.app</string>
+  <string name="project_id" translatable="false">been-there-atlas</string>
+  <string name="google_api_key" translatable="false">AIzaSyC9FXcRUu5JpgY2K4zSQKFYzQ1crNTC6n4</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC9FXcRUu5JpgY2K4zSQKFYzQ1crNTC6n4</string>
+  <string name="google_app_id" translatable="false">1:337542923057:android:3fe1df0766153ab67b6610</string>
+</resources>

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01aa37aa8c6a4bfd8f260ddcacfa447, type: 3}
+  m_Name: WebWrapperSettings
+  m_EditorClassIdentifier: AlienProject.WebWrapper.Runtime::AlienProject.WebWrapper.WebWrapperSettings
+  autoStart: 1
+  webViewEnabled: 1
+  useMockServices: 0
+  verboseLogging: 0
+  sourceSceneGuid: 8c9cfa26abfee488c85f1582747f6a02
+  configSource: 1
+  configEndpoint: 
+  firebaseDatabaseUrl: https://been-there-atlas-default-rtdb.firebaseio.com
+  firebaseConfigPath: apps/sunny_joy/webview
+  requestTimeoutSeconds: 0
+  androidStoreId: com.gameandjoy.sunnyjoygame
+  iosStoreId: 6820946065
+  appsFlyerDevKey: 9AZ2p7W6CXYFkh2zCBZ4rE
+  appsFlyerIosAppId: 6820946065
+  appsFlyerDebugLogging: 0
+  appsFlyerTimeoutSeconds: 7
+  deepLinkGraceMilliseconds: 750
+  oneLinkDomain: sunnyjoygame.onelink.me
+  iosUrlScheme: com.gameandjoy.sunnyjoygame
+  firebaseTimeoutSeconds: 8
+  notificationChannelId: webwrapper_messages
+  notificationChannelName: Sunny Joy
+  notificationChannelDescription: Remote messages and updates
+  notificationAccentColor: {r: 0.21568628, g: 0.47058824, b: 0.9647059, a: 1}
+  notificationPromptTitle: Stay up to date
+  notificationPromptMessage: Allow notifications so you don't miss important updates.
+  notificationAllowButton: Allow
+  notificationSkipButton: Not now
+  notificationPrivacyButton: Privacy Policy
+  notificationPromptIcon: {fileID: 0}
+  notificationPromptImage: {fileID: 0}
+  webViewCameraUsageDescription: Camera access is used to upload a photo when you
+    choose to do so.
+  webViewPhotoLibraryUsageDescription: Photo library access is used to upload an
+    image when you choose to do so.
+  wrapperSceneName: 
+  privacyPolicyUrl: https://www.freeprivacypolicy.com/live/1c9e3297-a1a8-426d-a182-931ff7cfe2af
+  notificationPromptCooldownDays: 3
+  loadingTitle: Loading
+  offlineTitle: No internet connection
+  offlineMessage: Check your connection and try again.
+  errorTitle: Something went wrong
+  retryButton: Try again
+  loadingLogo: {fileID: 0}
+  loadingBackgroundColor: {r: 0.07058824, g: 0.08627451, b: 0.12156863, a: 1}
+  loadingTextColor: {r: 1, g: 1, b: 1, a: 1}
+  mockScenario: 0
+  mockWebUrl: 
+  mockUrlLifetimeSeconds: 3600
+  previewMockWebViewInEditor: 0

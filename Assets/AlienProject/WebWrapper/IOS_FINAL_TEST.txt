@@ -1,0 +1,76 @@
+Sunny Joy - iOS integration, 2026-10-12
+
+Bundle: com.gameandjoy.sunnyjoygame
+Apple app ID: 6820946065
+Active config: FirebaseRealtimeDatabase; apps/sunny_joy/webview (see FIREBASE_DB.txt).
+Legacy config.php is not contacted in Firebase mode. DB is read on each cold launch.
+Privacy policy: https://www.freeprivacypolicy.com/live/1c9e3297-a1a8-426d-a182-931ff7cfe2af
+
+AppsFlyer OneLink
+Template: Sunny Joy (etr4), iOS id6820946065 only.
+Domain: sunnyjoygame.onelink.me
+Test link: https://sunnyjoygame.onelink.me/etr4/b3raoh1h
+Media source: qa_test
+Campaign: sunny_joy_ios_test
+URI fallback: com.gameandjoy.sunnyjoygame://
+The test link includes af_force_deeplink=true. Do not append test parameters to
+the short link: Secure Shortlinks protection remains enabled. Change parameters
+in the AppsFlyer link editor, or create another dedicated test link.
+Existing Android templates were not changed.
+
+IMPORTANT: Universal Links setup is not complete on the AppsFlyer side.
+The Apple App ID prefix (normally the 10-character Apple Team ID) must match
+the team that signs the app. "sunnygame" is not a valid Team ID. In AppsFlyer,
+edit Sunny Joy template > Use Universal Links > supply the real prefix and
+com.gameandjoy.sunnyjoygame. The app export already adds
+applinks:sunnyjoygame.onelink.me and its URI scheme while preserving other entries.
+Reference: https://dev.appsflyer.com/hc/docs/dl_ios_init_setup
+
+Launch
+Auto Start is on; real services are selected. Menu, profile and game audio wait
+for the server's game decision. WebView launches do not start a hidden game.
+Offline/startup errors and WebView loading failures open the game for the current session,
+without an error/retry screen and without permanently overwriting saved server routing.
+WebView opens directly, with no PushPanel and no notification permission request.
+PushPanel is eligible only after the game menu is visible (after profile creation
+for a new player), when permission is requestable and its cooldown has expired.
+Yes requests native permission. Skip closes the panel without requesting it,
+postponing it for at least 3 days. Native refusal suppresses repeated prompts.
+Both choices return to the already-open game without reloading it.
+The game stays portrait; WebView can rotate.
+
+Editor testing
+Use Tools > Egg Catcher > Preview UI/Game/Shop/Push to bypass network startup
+for one isolated session. These previews do not change Auto Start in the asset.
+Preview Push simulates permission; it does not grant system access.
+Run UI and Data Tests and Run Web Wrapper Tests before exporting.
+For REAL server startup in the Editor, use Tools > Alien Project > Test Real
+Server in Editor. See EDITOR_SERVER_TEST.txt for the new/repeat launch flow and
+the explicit mobile-SDK limitations. UI previews still bypass server startup.
+
+Screen adaptation
+The foreground UI fits a 960x1920 design space uniformly inside Screen.safeArea;
+the existing full-screen backgrounds remain edge-to-edge. Nested dialogs inherit
+their parent's fit instead of applying the notch/home-indicator insets again.
+Keyboard avoidance and photo dragging include the foreground's fitted scale.
+Gameplay refreshes its camera bounds and player position after viewport changes.
+Tools > Egg Catcher > Run Screen Adaptation Tests checks the authored buttons
+and headers at 320x568, 375x812, 390x844, 430x932, 768x1024 and 844x390 with
+simulated safe areas. Landscape here is a layout stress test; gameplay remains
+portrait. Capture Screen Adaptation Preview renders disposable menu copies to
+Library/ScreenAdaptation without changing the scene or profile. These are
+authored layout renders, not screenshots from an iPhone or native SDK tests.
+
+Device-only checks still required
+- Full Xcode + iOS SDK, actual signing team/profiles for the app AND embedded
+  WebWrapperNotificationService extension. No Apple team was guessed or set.
+- Confirm APNs key/certificate and correct development/production environment
+  in Firebase; allow push and verify a real background/terminated notification.
+- Finish the OneLink Universal Links setup above, then tap the test link from
+  Notes/Messages on the installed iPhone build (pasting it in Safari's address
+  bar is not a Universal Links test). Verify AppsFlyer qa_test attribution and
+  the server request. Test both fresh install and an already installed app.
+- Test backend game/WebView/offline branches, no hidden game music in WebView,
+  Skip/Allow/Don't Allow push paths, camera/gallery/crop and safe area/rotation.
+- An Editor test or C# compile is not proof of native linking, signing, APNs
+  delivery, App Store publication or end-to-end attribution on an iPhone.

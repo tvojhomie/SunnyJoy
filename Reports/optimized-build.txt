@@ -1,0 +1,3 @@
+Result: Succeeded
+TotalBuildOutputBytes: 375881432
+ApkBytes: 58643644

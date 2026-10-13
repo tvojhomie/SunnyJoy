@@ -1,0 +1,21 @@
+{
+  "name": "AlienProject.WebWrapper.AppsFlyer",
+  "rootNamespace": "AlienProject.WebWrapper.Integrations.AppsFlyer",
+  "references": [
+    "AlienProject.WebWrapper.Runtime",
+    "AppsFlyer"
+  ],
+  "includePlatforms": [
+    "Android",
+    "Editor",
+    "iOS"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

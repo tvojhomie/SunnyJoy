@@ -1,0 +1,6 @@
+{
+  "name": "EggCatcher.Runtime",
+  "rootNamespace": "EggCatcher",
+  "references": ["Unity.ugui", "Unity.InputSystem", "AlienProject.WebWrapper.Runtime", "UniWebView-CSharp"],
+  "autoReferenced": true
+}

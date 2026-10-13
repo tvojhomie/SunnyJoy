@@ -1,0 +1,49 @@
+WEB WRAPPER 0.6 — ПЕРЕНОС В ДРУГУЮ ИГРУ
+
+Один раз в новом Unity-проекте:
+1. Установи AppsFlyer 7.0.3, Firebase App/Messaging 13.17.0, EDM4U 1.2.189
+   и свой UniWebView 6.10.0. Источники SDK указаны в README пакета.
+2. Package Manager > + > Install package from tarball:
+   выбери com.alienproject.webwrapper-0.6.0.tgz.
+3. В первую сцену добавь отдельный активный объект с компонентом
+   Alien Project > Web Wrapper App. Сохрани сцену первой в Build Profiles.
+4. В «Подключение сцены» укажи Game Root — корневой объект игры с UI/логикой/звуками.
+   Сохрани Game Root выключенным: компонент включит его только для игрового маршрута.
+   WebWrapperApp должен находиться отдельно, не внутри Game Root.
+   Loading Root — необязательный отдельный экран загрузки.
+   В текущей Egg Catcher это уже делает её интеграция, поля можно оставить пустыми.
+5. Для Android после импорта SDK выполни Apply Documented Android Settings и
+   Resolve Android SDK Dependencies. Для iOS — Apply Documented iOS Settings.
+
+Данные, которые меняются для каждой игры на компоненте:
+- Application Name — название приложения.
+- Bundle Identifier — зарегистрированный package/bundle ID.
+- Apple App ID — числовой ID из App Store Connect, нужен для iOS.
+- Firebase Database URL — корневой адрес Realtime Database.
+- Firebase Config Path — отдельный узел этой игры с полями enabled и url.
+- AppsFlyer Dev Key — ключ проекта AppsFlyer.
+- OneLink Domain / iOS URL Scheme — если используются.
+- Privacy Policy URL — адрес политики приложения.
+
+Имя и bundle ID применяются к Player Settings автоматически.
+URL самого WebView задаётся только в Firebase, не в Unity.
+Auto Start всегда включён; mock/debug-режимы выключены. Таймауты заданы пакетом.
+Служебный Resources/WebWrapperSettings создаётся автоматически до запуска SDK:
+не редактируй его вручную, меняй значения только на сцене.
+
+Для каждой игры также нужны её google-services.json (Android) и
+GoogleService-Info.plist (iOS) в Assets. Файлы нужно скачать из соответствующих
+регистраций Firebase; нельзя просто заменить bundle ID внутри старих файлов.
+
+Вне Unity остаются: создание приложения в Firebase/AppsFlyer, правила БД,
+настройка OneLink, Apple Team/APNs и сервис отправки push. Пакет не создаёт эти
+ресурсы по одному ключу. Прямое чтение Firebase не включает серверное хранение
+push-токенов или аналитику кликов: для них нужен отдельный подключённый бэкенд.
+
+Перед сборкой автоматически проверяются обязательные значения, SDK, первая сцена,
+дубликаты конфигурации и соответствие Firebase-файла bundle ID.
+Android и iOS проверяются по соответствующему платформе конфигурационному файлу.
+
+Переноси пакет целиком, а не только WebWrapperApp.cs: компонент использует
+его Runtime/Editor-код и нативные SDK. В архиве нет ключей, Firebase-файлов,
+сцен, офферов или графики текущей игры. Старые данные другого приложения не копируются.

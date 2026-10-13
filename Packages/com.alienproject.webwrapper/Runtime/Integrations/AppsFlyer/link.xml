@@ -1,0 +1,6 @@
+<linker>
+  <assembly fullname="AppsFlyer">
+    <!-- Native UnitySendMessage invokes this receiver by method name on device. -->
+    <type fullname="AppsFlyerSDK.AppsFlyer" preserve="all" />
+  </assembly>
+</linker>

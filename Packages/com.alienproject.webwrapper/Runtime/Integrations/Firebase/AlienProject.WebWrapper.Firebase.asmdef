@@ -1,0 +1,25 @@
+{
+  "name": "AlienProject.WebWrapper.Firebase",
+  "rootNamespace": "AlienProject.WebWrapper.Integrations.Firebase",
+  "references": [
+    "AlienProject.WebWrapper.Runtime",
+    "Firebase.App",
+    "Firebase.Messaging",
+    "Unity.Notifications.Unified",
+    "Unity.Notifications.Android",
+    "Unity.Notifications.iOS"
+  ],
+  "includePlatforms": [
+    "Android",
+    "Editor",
+    "iOS"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

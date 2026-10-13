@@ -1,0 +1,8 @@
+{
+  "name": "EggCatcher.Editor.Tests",
+  "rootNamespace": "EggCatcher.Tests",
+  "references": ["EggCatcher.Runtime", "EggCatcher.Editor", "Unity.ugui", "AlienProject.WebWrapper.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}
