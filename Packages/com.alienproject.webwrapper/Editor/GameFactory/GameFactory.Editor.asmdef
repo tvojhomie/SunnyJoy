@@ -1,0 +1,7 @@
+{
+  "name": "GameFactory.Editor",
+  "rootNamespace": "GameFactory.Editor",
+  "references": ["AlienProject.WebWrapper.Runtime", "AlienProject.WebWrapper.Editor", "GameFactory.Runtime", "Unity.ugui"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

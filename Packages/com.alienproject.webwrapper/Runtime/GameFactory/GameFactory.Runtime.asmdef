@@ -1,0 +1,6 @@
+{
+  "name": "GameFactory.Runtime",
+  "rootNamespace": "GameFactory",
+  "references": ["Unity.ugui"],
+  "autoReferenced": true
+}
