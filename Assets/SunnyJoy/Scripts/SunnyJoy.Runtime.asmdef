@@ -1,0 +1,6 @@
+{
+  "name": "SunnyJoy.Runtime",
+  "rootNamespace": "SunnyJoy",
+  "references": ["Unity.ugui", "Unity.InputSystem"],
+  "autoReferenced": true
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SunnyJoy.Editor.Tests",
+  "rootNamespace": "SunnyJoy.Tests",
+  "references": ["SunnyJoy.Runtime", "SunnyJoy.Editor", "Unity.ugui"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

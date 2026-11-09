@@ -1,8 +1,0 @@
-{
-  "name": "AlienProject.WebWrapper.Installer.Editor",
-  "rootNamespace": "AlienProject.WebWrapperInstaller",
-  "references": [],
-  "includePlatforms": ["Editor"],
-  "autoReferenced": true,
-  "noEngineReferences": false
-}

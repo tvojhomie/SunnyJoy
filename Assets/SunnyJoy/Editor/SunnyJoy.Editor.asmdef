@@ -1,0 +1,7 @@
+{
+  "name": "SunnyJoy.Editor",
+  "rootNamespace": "SunnyJoy.Editor",
+  "references": ["SunnyJoy.Runtime", "Unity.ugui", "Unity.InputSystem"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

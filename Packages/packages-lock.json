@@ -1,43 +1,5 @@
 {
   "dependencies": {
-    "appsflyer-unity-plugin": {
-      "version": "https://github.com/AppsFlyerSDK/appsflyer-unity-plugin.git#v7.0.3",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "071edaadf588269e673ecf9913fe573f1e125e58"
-    },
-    "com.alienproject.webwrapper": {
-      "version": "file:com.alienproject.webwrapper",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.mobile.notifications": "2.4.3"
-      }
-    },
-    "com.google.external-dependency-manager": {
-      "version": "https://github.com/googlesamples/unity-jar-resolver.git?path=upm#v1.2.189",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "1a9384872d6b8b954a8c0115fdcdf146c995062a"
-    },
-    "com.google.firebase.app": {
-      "version": "file:../GooglePackages/com.google.firebase.app-13.17.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.google.external-dependency-manager": "1.2.186"
-      }
-    },
-    "com.google.firebase.messaging": {
-      "version": "file:../GooglePackages/com.google.firebase.messaging-13.17.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.google.firebase.app": "13.17.0"
-      }
-    },
     "com.unity.2d.animation": {
       "version": "13.0.4",
       "depth": 0,
@@ -205,15 +167,6 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.mobile.notifications": {
-      "version": "2.4.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.androidjni": "1.0.0"
-      },
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer.center": {

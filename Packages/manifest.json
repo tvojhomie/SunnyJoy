@@ -1,10 +1,5 @@
 {
   "dependencies": {
-    "appsflyer-unity-plugin": "https://github.com/AppsFlyerSDK/appsflyer-unity-plugin.git#v7.0.3",
-    "com.google.external-dependency-manager": "https://github.com/googlesamples/unity-jar-resolver.git?path=upm#v1.2.189",
-    "com.google.firebase.app": "file:../GooglePackages/com.google.firebase.app-13.17.0.tgz",
-    "com.google.firebase.messaging": "file:../GooglePackages/com.google.firebase.messaging-13.17.0.tgz",
-    "com.unity.mobile.notifications": "2.4.3",
     "com.unity.2d.animation": "13.0.4",
     "com.unity.2d.aseprite": "3.0.1",
     "com.unity.2d.psdimporter": "12.0.1",
